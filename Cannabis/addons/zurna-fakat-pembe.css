@@ -129,3 +129,16 @@
             padding: 0px 7px 0px 7px;
             margin-right: 6px;
 }
+
+
+/* gey miray */
+
+[data-author-id='708072966264586241'] .header-2jRmjb .username-h_Y3Us::before,
+[data-user-id="708072966264586241"] + .header-1dhDWV::before,
+[data-user-id="708072966264586241"] + .text-3j8t_e .username-3JLfHz::before,
+[data-user-id="708072966264586241"] + .listName-PwbeHL .username-3JLfHz::before {
+	content: "";
+            background: url("https://obscure-git.github.io/Lavender/assets/logo.png") center/100% no-repeat;
+            padding: 0px 7px 0px 7px;
+            margin-right: 6px;
+}
