@@ -1,0 +1,102 @@
+/*                                                                                                                       
+                                                                                                                      
+        CCCCCCCCCCCCCHHHHHHHHH     HHHHHHHHH               AAA               RRRRRRRRRRRRRRRRR   DDDDDDDDDDDDD        
+     CCC::::::::::::CH:::::::H     H:::::::H              A:::A              R::::::::::::::::R  D::::::::::::DDD     
+   CC:::::::::::::::CH:::::::H     H:::::::H             A:::::A             R::::::RRRRRR:::::R D:::::::::::::::DD   
+  C:::::CCCCCCCC::::CHH::::::H     H::::::HH            A:::::::A            RR:::::R     R:::::RDDD:::::DDDDD:::::D  
+ C:::::C       CCCCCC  H:::::H     H:::::H             A:::::::::A             R::::R     R:::::R  D:::::D    D:::::D 
+C:::::C                H:::::H     H:::::H            A:::::A:::::A            R::::R     R:::::R  D:::::D     D:::::D
+C:::::C                H::::::HHHHH::::::H           A:::::A A:::::A           R::::RRRRRR:::::R   D:::::D     D:::::D
+C:::::C                H:::::::::::::::::H          A:::::A   A:::::A          R:::::::::::::RR    D:::::D     D:::::D
+C:::::C                H:::::::::::::::::H         A:::::A     A:::::A         R::::RRRRRR:::::R   D:::::D     D:::::D
+C:::::C                H::::::HHHHH::::::H        A:::::AAAAAAAAA:::::A        R::::R     R:::::R  D:::::D     D:::::D
+C:::::C                H:::::H     H:::::H       A:::::::::::::::::::::A       R::::R     R:::::R  D:::::D     D:::::D
+ C:::::C       CCCCCC  H:::::H     H:::::H      A:::::AAAAAAAAAAAAA:::::A      R::::R     R:::::R  D:::::D    D:::::D 
+  C:::::CCCCCCCC::::CHH::::::H     H::::::HH   A:::::A             A:::::A   RR:::::R     R:::::RDDD:::::DDDDD:::::D  
+   CC:::::::::::::::CH:::::::H     H:::::::H  A:::::A               A:::::A  R::::::R     R:::::RD:::::::::::::::DD   
+     CCC::::::::::::CH:::::::H     H:::::::H A:::::A                 A:::::A R::::::R     R:::::RD::::::::::::DDD     
+        CCCCCCCCCCCCCHHHHHHHHH     HHHHHHHHHAAAAAAA                   AAAAAAARRRRRRRR     RRRRRRRDDDDDDDDDDDDD        
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                       */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Kopyalananlar            ║ İsteğe bağlı olarak aktif edebilir veya devre dışı bırakabilirsin.                      ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+@import url("https://pranchard.github.io/Cannabis/icons/src/source.css"); /* Bunu devre dışı bırakma! */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Kodlar                   ║ Buraya ellemeni pek tavsiye etmem.                                                      ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+:root {
+  --context-icon-size: 21px;
+  --context-menu-width: inherit;
+  --context-menu-radius: 8px;
+  --context-menu-spacing: 0px;
+  --context-button-radius: 4px;
+  --context-icon-spacing: 8px;
+  --context-settings-height: 60vh;
+  --context-disabled-opacity: 0.3;
+
+  --separator-spacing-height: 4px;
+  --separator-spacing-width: 2px;
+
+  --danger-background-radius: 4px;
+  --slider-background-radius: 4px;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Koyu Tema                ║ Burada karanlık temalar için bazı ayarlar yapabilirsiniz.                               ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.theme-dark {
+  --context-icon-normal: var(--interactive-normal);
+  --context-icon-focused: white;
+  --context-text-normal: var(--interactive-normal);
+  --context-text-focused: white;
+  --context-separator: var(--background-secondary-alt);
+
+  --slider-icon-color: var(--interactive-normal);
+  --slider-bar-color: var(--interactive-normal);
+  --slider-graber-color: var(--interactive-normal);
+  --slider-background-normal: var(--background-tertiary);
+  --slider-background-hover: var(--background-secondary-alt);
+
+  --danger-icon-normal: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+  --danger-icon-focused: white;
+  --danger-text-normal: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+  --danger-text-focused: white;
+  --danger-background-normal: transparent;
+  --danger-background-hover: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Açık Tema                ║ Burada açık temalar için bazı ayarlar yapabilirsiniz.                                   ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.theme-light {
+  --context-icon-normal: var(--interactive-normal);
+  --context-icon-focused: white;
+  --context-text-normal: var(--interactive-normal);
+  --context-text-focused: white;
+  --context-separator: var(--background-secondary-alt);
+
+  --slider-icon-color: var(--interactive-normal);
+  --slider-bar-color: var(--interactive-normal);
+  --slider-graber-color: var(--interactive-normal);
+  --slider-background-normal: var(--background-tertiary);
+  --slider-background-hover: var(--background-secondary-alt);
+
+  --danger-icon-normal: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+  --danger-icon-focused: white;
+  --danger-text-normal: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+  --danger-text-focused: white;
+  --danger-background-normal: transparent;
+  --danger-background-hover: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+}
