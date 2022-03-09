@@ -1,4 +1,5 @@
-// Context Icon (Normal)
+// Ayarlar İkonları (Normal)
+
 @mixin icon-normal($item-id, $url) {
   .sidebar-nqHbhN .item-3XjbnG[aria-controls="#{$item-id}"]::before {
   --icon: #{$url} !important;
