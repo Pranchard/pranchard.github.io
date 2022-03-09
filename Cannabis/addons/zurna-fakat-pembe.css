@@ -120,13 +120,13 @@
 
 /* sexappeal emrecum */
 
-[data-author-id='950476904396365884'] .header-2jRmjb .username-h_Y3Us::before,
-[data-user-id="950476904396365884"] + .header-1dhDWV::before,
-[data-user-id="950476904396365884"] + .text-3j8t_e .username-3JLfHz::before,
-[data-user-id="950476904396365884"] + .listName-PwbeHL .username-3JLfHz::before {
+[data-author-id='323037252978606092'] .header-2jRmjb .username-h_Y3Us::before,
+[data-user-id="323037252978606092"] + .header-1dhDWV::before,
+[data-user-id="323037252978606092"] + .text-3j8t_e .username-3JLfHz::before,
+[data-user-id="323037252978606092"] + .listName-PwbeHL .username-3JLfHz::before {
 	content: "";
             background: url("https://pranchard.github.io/Cannabis/assets/emrecum.png") center/100% no-repeat;
-            padding: 0px 12px 0px 12px;
+            padding: 0px 10px 0px 10px;
             margin-right: 5px;
 }
 
