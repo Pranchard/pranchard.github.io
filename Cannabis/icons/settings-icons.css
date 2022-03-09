@@ -1,0 +1,47 @@
+/*                                                                                                                       
+                                                                                                                      
+        CCCCCCCCCCCCCHHHHHHHHH     HHHHHHHHH               AAA               RRRRRRRRRRRRRRRRR   DDDDDDDDDDDDD        
+     CCC::::::::::::CH:::::::H     H:::::::H              A:::A              R::::::::::::::::R  D::::::::::::DDD     
+   CC:::::::::::::::CH:::::::H     H:::::::H             A:::::A             R::::::RRRRRR:::::R D:::::::::::::::DD   
+  C:::::CCCCCCCC::::CHH::::::H     H::::::HH            A:::::::A            RR:::::R     R:::::RDDD:::::DDDDD:::::D  
+ C:::::C       CCCCCC  H:::::H     H:::::H             A:::::::::A             R::::R     R:::::R  D:::::D    D:::::D 
+C:::::C                H:::::H     H:::::H            A:::::A:::::A            R::::R     R:::::R  D:::::D     D:::::D
+C:::::C                H::::::HHHHH::::::H           A:::::A A:::::A           R::::RRRRRR:::::R   D:::::D     D:::::D
+C:::::C                H:::::::::::::::::H          A:::::A   A:::::A          R:::::::::::::RR    D:::::D     D:::::D
+C:::::C                H:::::::::::::::::H         A:::::A     A:::::A         R::::RRRRRR:::::R   D:::::D     D:::::D
+C:::::C                H::::::HHHHH::::::H        A:::::AAAAAAAAA:::::A        R::::R     R:::::R  D:::::D     D:::::D
+C:::::C                H:::::H     H:::::H       A:::::::::::::::::::::A       R::::R     R:::::R  D:::::D     D:::::D
+ C:::::C       CCCCCC  H:::::H     H:::::H      A:::::AAAAAAAAAAAAA:::::A      R::::R     R:::::R  D:::::D    D:::::D 
+  C:::::CCCCCCCC::::CHH::::::H     H::::::HH   A:::::A             A:::::A   RR:::::R     R:::::RDDD:::::DDDDD:::::D  
+   CC:::::::::::::::CH:::::::H     H:::::::H  A:::::A               A:::::A  R::::::R     R:::::RD:::::::::::::::DD   
+     CCC::::::::::::CH:::::::H     H:::::::H A:::::A                 A:::::A R::::::R     R:::::RD::::::::::::DDD     
+        CCCCCCCCCCCCCHHHHHHHHH     HHHHHHHHHAAAAAAA                   AAAAAAARRRRRRRR     RRRRRRRDDDDDDDDDDDDD        
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                       */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Kopyalananlar            ║ İsteğe bağlı olarak aktif edebilir veya devre dışı bırakabilirsin.                      ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+@import url("https://pranchard.github.io/Cannabis/icons/settingsicons/settingsiconstheme.css"); 
+
+@import url("https://pranchard.github.io/Cannabis/modules/settingsicons/betterdiscord.scss"); 
+
+@import url("https://pranchard.github.io/Cannabis/modules/settingsicons/powercord.css"); 
+
+/* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Discord Eklentisi                                                                                                  ║ */
+/* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Tema :                   ║ Ayarlar İkonları                                                                        ║ */
+/* ║ Yapımcı:                 ║ CorellanStoma#1996                                                                      ║ */                                                      ║ */
+/* ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║                                                                                                                    ║ */
+/* ║ Discord ayarlar menüsüne ikonlar eklemeyi sağlayan bir eklenti.                                                    ║ */
+/* ║ CorellanStoma#1996. tarafından oluşturulmuştur.                                                                    ║ */
+/* ║                                                                                                                    ║ */
+/* ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
