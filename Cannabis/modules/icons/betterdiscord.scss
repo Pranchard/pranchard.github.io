@@ -1,0 +1,38 @@
+// Menü İkonları (Normal)
+
+@mixin icon-normal($item-id, $url, $status:"") {
+    @if $status != "" {
+      .item-1OdjEX##{$item-id}[aria-checked="#{$status}"]::before {
+        --icon: #{$url};
+      }
+    }
+    @else {
+      .item-1OdjEX##{$item-id}::before {
+        --icon: #{$url};
+      }
+    }
+  }
+  
+  // Menü İkonları (Ekstra)
+
+  @mixin icon-extra($item-id, $url, $status:"") {
+    @if $status != "" {
+      .item-1OdjEX[id^=#{$item-id}][aria-checked="#{$status}"]::before {
+        --icon: #{$url};
+      }
+    }
+    @else {
+      .item-1OdjEX[id^=#{$item-id}]::before {
+         --icon: #{$url};
+      }
+    }
+  }
+  
+  // Menü
+
+  @mixin icon-slider($item-id, $url) {
+    ##{$item-id} .sliderContainer-2Nrll8::before {
+      --icon: #{$url};
+      width: 20px;
+    }
+  }
