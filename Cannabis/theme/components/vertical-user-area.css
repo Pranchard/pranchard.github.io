@@ -1,33 +1,3 @@
-/*                                                                                                                       
-                                                                                                                      
-        CCCCCCCCCCCCCHHHHHHHHH     HHHHHHHHH               AAA               RRRRRRRRRRRRRRRRR   DDDDDDDDDDDDD        
-     CCC::::::::::::CH:::::::H     H:::::::H              A:::A              R::::::::::::::::R  D::::::::::::DDD     
-   CC:::::::::::::::CH:::::::H     H:::::::H             A:::::A             R::::::RRRRRR:::::R D:::::::::::::::DD   
-  C:::::CCCCCCCC::::CHH::::::H     H::::::HH            A:::::::A            RR:::::R     R:::::RDDD:::::DDDDD:::::D  
- C:::::C       CCCCCC  H:::::H     H:::::H             A:::::::::A             R::::R     R:::::R  D:::::D    D:::::D 
-C:::::C                H:::::H     H:::::H            A:::::A:::::A            R::::R     R:::::R  D:::::D     D:::::D
-C:::::C                H::::::HHHHH::::::H           A:::::A A:::::A           R::::RRRRRR:::::R   D:::::D     D:::::D
-C:::::C                H:::::::::::::::::H          A:::::A   A:::::A          R:::::::::::::RR    D:::::D     D:::::D
-C:::::C                H:::::::::::::::::H         A:::::A     A:::::A         R::::RRRRRR:::::R   D:::::D     D:::::D
-C:::::C                H::::::HHHHH::::::H        A:::::AAAAAAAAA:::::A        R::::R     R:::::R  D:::::D     D:::::D
-C:::::C                H:::::H     H:::::H       A:::::::::::::::::::::A       R::::R     R:::::R  D:::::D     D:::::D
- C:::::C       CCCCCC  H:::::H     H:::::H      A:::::AAAAAAAAAAAAA:::::A      R::::R     R:::::R  D:::::D    D:::::D 
-  C:::::CCCCCCCC::::CHH::::::H     H::::::HH   A:::::A             A:::::A   RR:::::R     R:::::RDDD:::::DDDDD:::::D  
-   CC:::::::::::::::CH:::::::H     H:::::::H  A:::::A               A:::::A  R::::::R     R:::::RD:::::::::::::::DD   
-     CCC::::::::::::CH:::::::H     H:::::::H A:::::A                 A:::::A R::::::R     R:::::RD::::::::::::DDD     
-        CCCCCCCCCCCCCHHHHHHHHH     HHHHHHHHHAAAAAAA                   AAAAAAARRRRRRRR     RRRRRRRDDDDDDDDDDDDD        
-                                                                                                                      
-                                                                                                                      
-                                                                                                                      
-                                                                                                                      
-                                                                                                                      
-                                                                                                                      
-                                                                                                                       */
-
-/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ CSS                      ║ Kodlar!                                                                                 ║ */
-/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
-
 #app-mount .guilds-2JjMmN .tree-3agP2X {
   outline: none !important;
   margin-bottom: var(--user-area, 220px);
