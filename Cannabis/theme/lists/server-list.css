@@ -1,0 +1,111 @@
+/*                                                                                                                       
+                                                                                                                      
+        CCCCCCCCCCCCCHHHHHHHHH     HHHHHHHHH               AAA               RRRRRRRRRRRRRRRRR   DDDDDDDDDDDDD        
+     CCC::::::::::::CH:::::::H     H:::::::H              A:::A              R::::::::::::::::R  D::::::::::::DDD     
+   CC:::::::::::::::CH:::::::H     H:::::::H             A:::::A             R::::::RRRRRR:::::R D:::::::::::::::DD   
+  C:::::CCCCCCCC::::CHH::::::H     H::::::HH            A:::::::A            RR:::::R     R:::::RDDD:::::DDDDD:::::D  
+ C:::::C       CCCCCC  H:::::H     H:::::H             A:::::::::A             R::::R     R:::::R  D:::::D    D:::::D 
+C:::::C                H:::::H     H:::::H            A:::::A:::::A            R::::R     R:::::R  D:::::D     D:::::D
+C:::::C                H::::::HHHHH::::::H           A:::::A A:::::A           R::::RRRRRR:::::R   D:::::D     D:::::D
+C:::::C                H:::::::::::::::::H          A:::::A   A:::::A          R:::::::::::::RR    D:::::D     D:::::D
+C:::::C                H:::::::::::::::::H         A:::::A     A:::::A         R::::RRRRRR:::::R   D:::::D     D:::::D
+C:::::C                H::::::HHHHH::::::H        A:::::AAAAAAAAA:::::A        R::::R     R:::::R  D:::::D     D:::::D
+C:::::C                H:::::H     H:::::H       A:::::::::::::::::::::A       R::::R     R:::::R  D:::::D     D:::::D
+ C:::::C       CCCCCC  H:::::H     H:::::H      A:::::AAAAAAAAAAAAA:::::A      R::::R     R:::::R  D:::::D    D:::::D 
+  C:::::CCCCCCCC::::CHH::::::H     H::::::HH   A:::::A             A:::::A   RR:::::R     R:::::RDDD:::::DDDDD:::::D  
+   CC:::::::::::::::CH:::::::H     H:::::::H  A:::::A               A:::::A  R::::::R     R:::::RD:::::::::::::::DD   
+     CCC::::::::::::CH:::::::H     H:::::::H A:::::A                 A:::::A R::::::R     R:::::RD::::::::::::DDD     
+        CCCCCCCCCCCCCHHHHHHHHH     HHHHHHHHHAAAAAAA                   AAAAAAARRRRRRRR     RRRRRRRDDDDDDDDDDDDD        
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                       */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ CSS                      ║ Kodlar!                                                                                 ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.iconBadge-32fMme {
+    background-color: var(--background-secondary-alt) !important;
+}
+
+.item-2LIpTv {
+    background-color: var(--brand-experiment);
+    margin-left: -8.5px;
+    width: 14px;
+    border-radius: 0px 40px 40px 0 !important;
+    box-shadow: 0px 0px 6px 1px rgba(126, 123, 254, 0.75);
+    -webkit-box-shadow:  0px 0px 6px 1px rgba(126, 123, 254, 0.75);
+}
+
+/* sunucu listesi okunmamış bildirimi */
+.mention-3XBnnZ {
+	background: var(--blurple-bg) !important;;
+	box-shadow: 0px 0px 4px 0px rgba(126, 123, 254, 0.75);
+	-webkit-box-shadow:  0px 0px 4px 0px rgba(126, 123, 254, 0.75);
+}
+.unreadMentionsIndicatorBottom-3RJMnQ {
+	bottom: 300px;
+}
+
+.none-2-_0dP {
+    scrollbar-width: auto !important;
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+    margin-right: 3px;
+}
+
+.none-2-_0dP:hover::-webkit-scrollbar {
+    width: 0.25em !important;
+    border-radius: var(--radius-primary);
+    background: transparent !important;  
+}
+
+.none-2-_0dP::-webkit-scrollbar-thumb {
+    background: var(--background-secondary);
+    border-radius: var(--radius-primary);
+}
+
+/* klasör arka planı */
+.folder-241Joy, .folderIconWrapper-1oRIZr, .expandedFolderIconWrapper-3RwQpD, .expandedFolderBackground-1kSAf6 {
+    background-color: var(--background-secondary-alt) !important;
+}
+
+/* klasör simgesi */
+.expandedFolderIconWrapper-3RwQpD svg {
+    color: var(--brand-experiment) !important;
+}
+
+
+/* sunucu ikonları */
+.selected-1Drb7Z img {
+    transition: .5s ease !important;
+}
+
+.childWrapper-1j_1ub {
+    transition: .5s ease;
+    background-color: var(--background-secondary-alt) !important;
+    border-radius: 10% !important;
+}
+
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub {
+    background: var(--blurple-bg) !important;
+}
+
+.circleIconButton-1VxDrg {
+    background-color: var(--background-secondary-alt);
+    color: var(--brand-experiment);
+    transition: .5s ease;
+}
+
+.circleIconButton-1VxDrg:hover {
+    background: var(--blurple-bg);
+    color: #fff;
+}
+
+.circleIconButton-1VxDrg.selected-2r1Hvo {
+    background: var(--blurple-bg-alt);
+}
