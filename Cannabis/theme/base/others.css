@@ -108,12 +108,12 @@ C:::::C                H:::::H     H:::::H       A:::::::::::::::::::::A       R
 	background-color: var(--background-secondary) !important;
 }
 
-/* Green */
+/* yeşiller */
 [style^="opacity: 1; background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
 	background: var(--spotify-color) !important;
 }
 
-/* The unchecked checkbox's bg color */
+/* onay kutusunun onaylanmayan kutucuğunun arka plan rengi */
 [style^="opacity: 1; background-color: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);"] {
 	background: var(--background-secondary-alt) !important;
 }
