@@ -1,0 +1,66 @@
+/*                                                                                                                       
+                                                                                                                      
+        CCCCCCCCCCCCCHHHHHHHHH     HHHHHHHHH               AAA               RRRRRRRRRRRRRRRRR   DDDDDDDDDDDDD        
+     CCC::::::::::::CH:::::::H     H:::::::H              A:::A              R::::::::::::::::R  D::::::::::::DDD     
+   CC:::::::::::::::CH:::::::H     H:::::::H             A:::::A             R::::::RRRRRR:::::R D:::::::::::::::DD   
+  C:::::CCCCCCCC::::CHH::::::H     H::::::HH            A:::::::A            RR:::::R     R:::::RDDD:::::DDDDD:::::D  
+ C:::::C       CCCCCC  H:::::H     H:::::H             A:::::::::A             R::::R     R:::::R  D:::::D    D:::::D 
+C:::::C                H:::::H     H:::::H            A:::::A:::::A            R::::R     R:::::R  D:::::D     D:::::D
+C:::::C                H::::::HHHHH::::::H           A:::::A A:::::A           R::::RRRRRR:::::R   D:::::D     D:::::D
+C:::::C                H:::::::::::::::::H          A:::::A   A:::::A          R:::::::::::::RR    D:::::D     D:::::D
+C:::::C                H:::::::::::::::::H         A:::::A     A:::::A         R::::RRRRRR:::::R   D:::::D     D:::::D
+C:::::C                H::::::HHHHH::::::H        A:::::AAAAAAAAA:::::A        R::::R     R:::::R  D:::::D     D:::::D
+C:::::C                H:::::H     H:::::H       A:::::::::::::::::::::A       R::::R     R:::::R  D:::::D     D:::::D
+ C:::::C       CCCCCC  H:::::H     H:::::H      A:::::AAAAAAAAAAAAA:::::A      R::::R     R:::::R  D:::::D    D:::::D 
+  C:::::CCCCCCCC::::CHH::::::H     H::::::HH   A:::::A             A:::::A   RR:::::R     R:::::RDDD:::::DDDDD:::::D  
+   CC:::::::::::::::CH:::::::H     H:::::::H  A:::::A               A:::::A  R::::::R     R:::::RD:::::::::::::::DD   
+     CCC::::::::::::CH:::::::H     H:::::::H A:::::A                 A:::::A R::::::R     R:::::RD::::::::::::DDD     
+        CCCCCCCCCCCCCHHHHHHHHH     HHHHHHHHHAAAAAAA                   AAAAAAARRRRRRRR     RRRRRRRDDDDDDDDDDDDD        
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                       */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ CSS                      ║ Kodlar!                                                                                 ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.panels-3wFtMD {
+     display: flex;
+     flex-direction: column;
+}
+
+/* durum seçme menüsü */
+
+/* durumların açıklamalarını gizleme */
+
+.statusItem-2hiCNB > .description-3Cwkxk,
+.statusItem-2hiCNB > .separator-1So4YB {
+    display: none;
+}
+
+/* sesli bölümü */
+
+/* konuşurken yanan yeşil ışık */
+.iconLive-nQxzyp {
+    color: var(--spotify-color) !important;
+ }
+
+/* sesli kanal değiştirici */
+.wrapper-3Hk9OB {
+    border-radius: var(--radius-primary) !important;
+}
+
+/* sesli kanal yazıları */
+.container-1zzFcN {
+    color: #ddd;
+    border-bottom: none;
+}
+
+/* kamera açma ve ekran paylaşma butonu */
+.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx, .button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx {
+    background: var(--spotify-bg) !important;
+}
