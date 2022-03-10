@@ -19,3 +19,7 @@
 ## Windowed Settings Addon
 
 > A plugin that makes the settings screen windowed and completely aligns the tiles to the left.
+
+## BetterInvites for BetterInvites
+
+> Alternative plugin that combines the betterinvites plugin with the unstable betterinvites addon.
