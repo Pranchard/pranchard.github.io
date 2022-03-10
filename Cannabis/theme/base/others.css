@@ -1,0 +1,128 @@
+/*                                                                                                                       
+                                                                                                                      
+        CCCCCCCCCCCCCHHHHHHHHH     HHHHHHHHH               AAA               RRRRRRRRRRRRRRRRR   DDDDDDDDDDDDD        
+     CCC::::::::::::CH:::::::H     H:::::::H              A:::A              R::::::::::::::::R  D::::::::::::DDD     
+   CC:::::::::::::::CH:::::::H     H:::::::H             A:::::A             R::::::RRRRRR:::::R D:::::::::::::::DD   
+  C:::::CCCCCCCC::::CHH::::::H     H::::::HH            A:::::::A            RR:::::R     R:::::RDDD:::::DDDDD:::::D  
+ C:::::C       CCCCCC  H:::::H     H:::::H             A:::::::::A             R::::R     R:::::R  D:::::D    D:::::D 
+C:::::C                H:::::H     H:::::H            A:::::A:::::A            R::::R     R:::::R  D:::::D     D:::::D
+C:::::C                H::::::HHHHH::::::H           A:::::A A:::::A           R::::RRRRRR:::::R   D:::::D     D:::::D
+C:::::C                H:::::::::::::::::H          A:::::A   A:::::A          R:::::::::::::RR    D:::::D     D:::::D
+C:::::C                H:::::::::::::::::H         A:::::A     A:::::A         R::::RRRRRR:::::R   D:::::D     D:::::D
+C:::::C                H::::::HHHHH::::::H        A:::::AAAAAAAAA:::::A        R::::R     R:::::R  D:::::D     D:::::D
+C:::::C                H:::::H     H:::::H       A:::::::::::::::::::::A       R::::R     R:::::R  D:::::D     D:::::D
+ C:::::C       CCCCCC  H:::::H     H:::::H      A:::::AAAAAAAAAAAAA:::::A      R::::R     R:::::R  D:::::D    D:::::D 
+  C:::::CCCCCCCC::::CHH::::::H     H::::::HH   A:::::A             A:::::A   RR:::::R     R:::::RDDD:::::DDDDD:::::D  
+   CC:::::::::::::::CH:::::::H     H:::::::H  A:::::A               A:::::A  R::::::R     R:::::RD:::::::::::::::DD   
+     CCC::::::::::::CH:::::::H     H:::::::H A:::::A                 A:::::A R::::::R     R:::::RD::::::::::::DDD     
+        CCCCCCCCCCCCCHHHHHHHHH     HHHHHHHHHAAAAAAA                   AAAAAAARRRRRRRR     RRRRRRRDDDDDDDDDDDDD        
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                       */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ CSS                      ║ Kodlar!                                                                                 ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.numberBadge-37OJ3S,
+.wrapper-2olG5t.badge-3k1jbq {
+    color: #eee;
+    background: var(--blurple-bg) !important;
+    border-radius: 10px !important;
+}
+
+.colorGreen-3y-Z79, .liveIndicator-TJKS7N {
+    background: var(--spotify-bg);
+    color: #fff !important;
+    transition: .3s ease;
+    border: none;
+    outline: none;
+}
+
+.colorGreen-3y-Z79:hover {
+    background: var(--spotify-bg-alt) !important;
+    color: #fff !important;
+}
+
+.colorStatusGreen-2HKYOW {
+    color: var(--spotify-color) !important;
+}
+
+.lookFilled-yCfaCM.colorBrand-I6CyqQ {
+    background: var(--blurple-bg);
+    color: #fff !important;
+    transition: .3s ease;
+    border: none;
+    outline: none;
+}
+
+.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
+    background: var(--blurple-bg-alt);
+}
+
+.colorRed-rQXKgM {
+  background: var(--red-bg) !important;
+  transition: .5s ease !important;
+}
+
+.colorRed-rQXKgM:hover {
+    background: var(--red-bg-alt) !important;
+    color: #fff !important;
+    transition: .5s ease;
+    border: none;
+    outline: none;
+}
+
+.lookOutlined-3yKVGo.colorRed-rQXKgM {
+  color: #fff !important;
+}
+
+.focused-3qFvc8 {
+  background: var(--blurple-bg-alt) !important;
+}
+
+.spine-29OFwR {
+  display: none;
+}
+
+[aria-label="Disable"] .container-2nx-BQ {
+	background: var(--spotify-bg) !important;
+}
+
+[aria-label="Enable"] .container-2nx-BQ {
+	background: var(--background-primary) !important;
+}
+
+.colorGrey-2iAG-B,
+.lookFilled-yCfaCM.colorPrimary-2AuQVo {
+	background-color: var(--background-secondary-alt) !important;
+	transition: .3s ease;
+}
+
+.colorGrey-2iAG-B:hover,
+.lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {
+	background-color: var(--background-secondary) !important;
+}
+
+/* Green */
+[style^="opacity: 1; background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
+	background: var(--spotify-color) !important;
+}
+
+/* The unchecked checkbox's bg color */
+[style^="opacity: 1; background-color: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);"] {
+	background: var(--background-secondary-alt) !important;
+}
+
+.perksModal-CLcR1c {
+	background-color: var(--background-primary) !important;
+}
+
+.tierBody-3ju-rc,
+.perk-19D_HN {
+	background-color: var(--background-secondary) !important;
+}
