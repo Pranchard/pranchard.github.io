@@ -1,0 +1,85 @@
+/*                                                                                                                       
+                                                                                                                      
+        CCCCCCCCCCCCCHHHHHHHHH     HHHHHHHHH               AAA               RRRRRRRRRRRRRRRRR   DDDDDDDDDDDDD        
+     CCC::::::::::::CH:::::::H     H:::::::H              A:::A              R::::::::::::::::R  D::::::::::::DDD     
+   CC:::::::::::::::CH:::::::H     H:::::::H             A:::::A             R::::::RRRRRR:::::R D:::::::::::::::DD   
+  C:::::CCCCCCCC::::CHH::::::H     H::::::HH            A:::::::A            RR:::::R     R:::::RDDD:::::DDDDD:::::D  
+ C:::::C       CCCCCC  H:::::H     H:::::H             A:::::::::A             R::::R     R:::::R  D:::::D    D:::::D 
+C:::::C                H:::::H     H:::::H            A:::::A:::::A            R::::R     R:::::R  D:::::D     D:::::D
+C:::::C                H::::::HHHHH::::::H           A:::::A A:::::A           R::::RRRRRR:::::R   D:::::D     D:::::D
+C:::::C                H:::::::::::::::::H          A:::::A   A:::::A          R:::::::::::::RR    D:::::D     D:::::D
+C:::::C                H:::::::::::::::::H         A:::::A     A:::::A         R::::RRRRRR:::::R   D:::::D     D:::::D
+C:::::C                H::::::HHHHH::::::H        A:::::AAAAAAAAA:::::A        R::::R     R:::::R  D:::::D     D:::::D
+C:::::C                H:::::H     H:::::H       A:::::::::::::::::::::A       R::::R     R:::::R  D:::::D     D:::::D
+ C:::::C       CCCCCC  H:::::H     H:::::H      A:::::AAAAAAAAAAAAA:::::A      R::::R     R:::::R  D:::::D    D:::::D 
+  C:::::CCCCCCCC::::CHH::::::H     H::::::HH   A:::::A             A:::::A   RR:::::R     R:::::RDDD:::::DDDDD:::::D  
+   CC:::::::::::::::CH:::::::H     H:::::::H  A:::::A               A:::::A  R::::::R     R:::::RD:::::::::::::::DD   
+     CCC::::::::::::CH:::::::H     H:::::::H A:::::A                 A:::::A R::::::R     R:::::RD::::::::::::DDD     
+        CCCCCCCCCCCCCHHHHHHHHH     HHHHHHHHHAAAAAAA                   AAAAAAARRRRRRRR     RRRRRRRDDDDDDDDDDDDD        
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                       */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ CSS                      ║ Kodlar!                                                                                 ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* sol üstteki discord yazısı */
+
+.wordmarkWindows-2dq6rw {
+    opacity: 0;
+}
+
+.withFrame-2dL45i {
+    height: 20px;
+    margin: 5px 10px 0 0;
+}
+
+.withFrame-2dL45i:hover .winButton-3UMjdg {
+    opacity: 1;
+}
+
+/* pencere butonları */
+
+.winButton-3UMjdg {
+    color: #B9BBBE;
+    opacity: 0;
+    border-radius: 50px;
+    margin: 5px 7px 0 0;
+    padding: 0px !important;
+    width: 20px; height: 20px;
+}
+
+.winButton-3UMjdg:hover {
+    color: #fff;
+    opacity: 1;
+}
+
+[class*="winButton-"]:nth-child(2):hover {
+    background-color: #FD282E;
+    color: #FD282E;
+}
+
+[class*="winButton-"]:nth-child(3):hover {
+    background-color: #FFAC62;
+    color: #FFAC62;
+}
+
+[class*="winButton-"]:nth-child(4):hover {
+    background-color: var(--spotify-color);
+    color: var(--spotify-color);
+}
+
+.sidebar-1tnWFu::before {
+    content: " ";
+    position: fixed !important;
+    width: 260px;
+    height: 70px;
+    top: -10px;
+    border-radius: var(--radius-primary);
+    background-color: var(--background-secondary);
+}
