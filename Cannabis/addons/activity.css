@@ -66,6 +66,7 @@ C:::::C                H:::::H     H:::::H       A:::::::::::::::::::::A       R
   position: absolute;
   top: 0;
   left: 0;
+  opacity: 0;
   border-radius: var(--radius-primary);
 }
 .activityUserPopout-2MzGCj .contentNoImagesUserPopout-12NyFa::after, .activityProfile-1712BN .contentNoImagesUserPopout-12NyFa::after {
