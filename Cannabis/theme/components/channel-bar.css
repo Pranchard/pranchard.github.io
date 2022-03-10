@@ -1,0 +1,138 @@
+/*                                                                                                                       
+                                                                                                                      
+        CCCCCCCCCCCCCHHHHHHHHH     HHHHHHHHH               AAA               RRRRRRRRRRRRRRRRR   DDDDDDDDDDDDD        
+     CCC::::::::::::CH:::::::H     H:::::::H              A:::A              R::::::::::::::::R  D::::::::::::DDD     
+   CC:::::::::::::::CH:::::::H     H:::::::H             A:::::A             R::::::RRRRRR:::::R D:::::::::::::::DD   
+  C:::::CCCCCCCC::::CHH::::::H     H::::::HH            A:::::::A            RR:::::R     R:::::RDDD:::::DDDDD:::::D  
+ C:::::C       CCCCCC  H:::::H     H:::::H             A:::::::::A             R::::R     R:::::R  D:::::D    D:::::D 
+C:::::C                H:::::H     H:::::H            A:::::A:::::A            R::::R     R:::::R  D:::::D     D:::::D
+C:::::C                H::::::HHHHH::::::H           A:::::A A:::::A           R::::RRRRRR:::::R   D:::::D     D:::::D
+C:::::C                H:::::::::::::::::H          A:::::A   A:::::A          R:::::::::::::RR    D:::::D     D:::::D
+C:::::C                H:::::::::::::::::H         A:::::A     A:::::A         R::::RRRRRR:::::R   D:::::D     D:::::D
+C:::::C                H::::::HHHHH::::::H        A:::::AAAAAAAAA:::::A        R::::R     R:::::R  D:::::D     D:::::D
+C:::::C                H:::::H     H:::::H       A:::::::::::::::::::::A       R::::R     R:::::R  D:::::D     D:::::D
+ C:::::C       CCCCCC  H:::::H     H:::::H      A:::::AAAAAAAAAAAAA:::::A      R::::R     R:::::R  D:::::D    D:::::D 
+  C:::::CCCCCCCC::::CHH::::::H     H::::::HH   A:::::A             A:::::A   RR:::::R     R:::::RDDD:::::DDDDD:::::D  
+   CC:::::::::::::::CH:::::::H     H:::::::H  A:::::A               A:::::A  R::::::R     R:::::RD:::::::::::::::DD   
+     CCC::::::::::::CH:::::::H     H:::::::H A:::::A                 A:::::A R::::::R     R:::::RD::::::::::::DDD     
+        CCCCCCCCCCCCCHHHHHHHHH     HHHHHHHHHAAAAAAA                   AAAAAAARRRRRRRR     RRRRRRRDDDDDDDDDDDDD        
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                       */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ CSS                      ║ Kodlar!                                                                                 ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+:root {
+    --Roundness: 10px; /* Changes how round edges are | Default: 25px */
+}
+
+.toolbar-3_r2xA {
+    margin-right: 30px;
+}
+
+.toolbar-3_r2xA path {
+   transition: .3s ease;
+}
+
+.searchBar-jGtisZ {
+     width: 20px;
+     cursor: pointer;
+     transition: .3s ease;
+}
+
+.DraftEditor-root {
+     transition: .3s ease;
+}
+
+.open-1F8u2c .DraftEditor-root {
+     background-color: var(--background-secondary);
+     border-radius: 5px;
+     padding-left: 5px !important;
+     margin-right: 5px;
+}
+
+.iconContainer-1RqWJj {
+     cursor: pointer;
+     width: 20px; height: 20px;
+}
+
+.searchBar-jGtisZ:hover .icon-18rqoe path {
+     fill: #fff !important;
+}
+
+.option-ayUoaq.searchOption-3u1gRt:hover {
+    background: var(--background-secondary-alt) !important;
+}
+
+.children-3xh0VB::after, .option-ayUoaq::after {
+    display: none;
+}
+
+.children-3xh0VB {
+    margin-right: 20px;
+}
+
+.divider-q3P9HC {
+    width: 2px;
+    height: 20px;
+}
+
+svg > .updateIconForeground-2V_zo4 {
+    fill: var(--interactive-normal);
+}
+
+svg:hover > .updateIconForeground-2V_zo4 {
+    fill: var(--interactive-hover);
+}
+
+svg:active > .updateIconForeground-2V_zo4 {
+    fill: var(--interactive-active);
+}
+
+svg.icon-18rqoe > path {
+    fill: var(--interactive-normal);
+}
+
+svg.icon-2xnN2Y {
+      color: var(--interactive-normal);
+}
+
+svg.icon-2xnN2Y:hover {
+      color: var(--interactive-hover);
+}
+
+.topic-11NuQZ {
+      color: var(--interactive-normal) !important;
+}
+
+.title-17SveM {
+      color: var(--interactive-normal);
+}
+
+.title-17SveM:hover {
+      color: var(--interactive-hover);
+}
+
+.status-12NUUC:hover {
+      filter: brightness(1.5)!important
+}
+
+div[aria-label="Help"] {
+    display: none !important;
+    opacity: 0 !important;
+}
+
+.header-3OsQeK, .container-ZMc96U {
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+}
+
+.content-1jQy2l:before {
+    display: none;
+}
