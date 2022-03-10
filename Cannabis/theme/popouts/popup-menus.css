@@ -1,0 +1,109 @@
+/*                                                                                                                       
+                                                                                                                      
+        CCCCCCCCCCCCCHHHHHHHHH     HHHHHHHHH               AAA               RRRRRRRRRRRRRRRRR   DDDDDDDDDDDDD        
+     CCC::::::::::::CH:::::::H     H:::::::H              A:::A              R::::::::::::::::R  D::::::::::::DDD     
+   CC:::::::::::::::CH:::::::H     H:::::::H             A:::::A             R::::::RRRRRR:::::R D:::::::::::::::DD   
+  C:::::CCCCCCCC::::CHH::::::H     H::::::HH            A:::::::A            RR:::::R     R:::::RDDD:::::DDDDD:::::D  
+ C:::::C       CCCCCC  H:::::H     H:::::H             A:::::::::A             R::::R     R:::::R  D:::::D    D:::::D 
+C:::::C                H:::::H     H:::::H            A:::::A:::::A            R::::R     R:::::R  D:::::D     D:::::D
+C:::::C                H::::::HHHHH::::::H           A:::::A A:::::A           R::::RRRRRR:::::R   D:::::D     D:::::D
+C:::::C                H:::::::::::::::::H          A:::::A   A:::::A          R:::::::::::::RR    D:::::D     D:::::D
+C:::::C                H:::::::::::::::::H         A:::::A     A:::::A         R::::RRRRRR:::::R   D:::::D     D:::::D
+C:::::C                H::::::HHHHH::::::H        A:::::AAAAAAAAA:::::A        R::::R     R:::::R  D:::::D     D:::::D
+C:::::C                H:::::H     H:::::H       A:::::::::::::::::::::A       R::::R     R:::::R  D:::::D     D:::::D
+ C:::::C       CCCCCC  H:::::H     H:::::H      A:::::AAAAAAAAAAAAA:::::A      R::::R     R:::::R  D:::::D    D:::::D 
+  C:::::CCCCCCCC::::CHH::::::H     H::::::HH   A:::::A             A:::::A   RR:::::R     R:::::RDDD:::::DDDDD:::::D  
+   CC:::::::::::::::CH:::::::H     H:::::::H  A:::::A               A:::::A  R::::::R     R:::::RD:::::::::::::::DD   
+     CCC::::::::::::CH:::::::H     H:::::::H A:::::A                 A:::::A R::::::R     R:::::RD::::::::::::DDD     
+        CCCCCCCCCCCCCHHHHHHHHH     HHHHHHHHHAAAAAAA                   AAAAAAARRRRRRRR     RRRRRRRDDDDDDDDDDDDD        
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+                                                                                                                       */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ CSS                      ║ Kodlar!                                                                                 ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+
+.menu-1QACrS, .theme-dark .root-g14mjS, .theme-dark .contentWrapper-3oy4Xo {
+   background-color: var(--background-primary);
+};
+
+/* insanları sunucuya davet etme menüsünde arkadaş arama */
+.container-2oNtJn, .inner-2pOSmK {
+   background-color: var(--background-primary) !important;
+}
+
+/* insanları sunucuya davet etme kutusu */
+.container-2oNtJn, .inner-2pOSmK {
+   background-color: var(--background-secondary) !important;
+}
+
+/* sunucu link bölgesi */
+.theme-dark .footer-1hTRRZ {
+   background-color: var(--background-primary) !important;
+}
+
+/* mesaj silme kutusu */
+.theme-dark .message-G6O-Wv {
+   background-color: var(--background-secondary);
+}
+
+/* mesaj silme butonu */
+.theme-dark .footer-31IekZ {
+   background-color: var(--background-secondary);
+}
+
+.container-2McqkF, .elevationBorderHigh-3drnJX {
+   background-color: var(--background-secondary) !important;
+}
+
+.theme-dark .option-2KkUJO:after{
+   background: none !important;
+}
+
+.theme-dark .focused-2FU0YH {
+   background-color: var(--background-secondary);
+}
+
+/* tooltipler */
+.tooltipPrimary-3qLMbS {
+   background-color: var(--background-primary) !important; 
+}
+
+.stageListenerPill-1_QAPA {
+   background-color: var(--background-secondary) !important;
+}
+
+/* tepki menüsü */
+.container-KM8BU6.root-g14mjS,
+.container-KM8BU6.root-g14mjS > div:nth-child(1) {
+    background-color: var(--background-secondary);
+}
+
+.container-KM8BU6.root-g14mjS > div:nth-child(2) {
+    background-color: var(--background-primary);
+}
+
+.theme-dark .reactorDefault-3GSyaV {
+    -webkit-box-shadow: inset 0 -1px 0 rgba(79,84,92,.2); 
+    box-shadow:inset 0 -1px 0 rgba(79,84,92,.2);
+}
+
+.container-KM8BU6.root-g14mjS .reactionSelected-1aMb2K {
+    background-color: var(--background-primary) !important;
+}
+
+.container-KM8BU6.root-g14mjS .reactionDefault-1Sjj1f:hover,
+.container-KM8BU6.root-g14mjS .reactionSelected-1aMb2K:hover  {
+    background-color: var(--background-secondary-alt) !important;
+}
+
+/* aktif konuları gösterme menüsü */
+.container-2rzKKA:hover {
+	background-color: var(--background-secondary-alt);
+}
