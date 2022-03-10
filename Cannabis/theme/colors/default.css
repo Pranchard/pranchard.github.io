@@ -39,13 +39,18 @@ C:::::C                H:::::H     H:::::H       A:::::::::::::::::::::A       R
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
 .theme-dark:root {
-  /* Chat, channels, etc... */
+	
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Gradient ve Font         ║ Gradient ve font ayarlarını ayarlamanı sağlayan bölüm.                                  ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */	
+
+  /* çet ve kanallar */
   --font-primary: "Source Sans Pro", sans-serif;
 
-  /* Server/channel/roles/etc (font with that awful G) */
+  /* sunucu, kanallar ve roller */
   --font-display: "Source Sans Pro", sans-serif;
 
-  /* Codeblocks */
+  /* kodlar */
   --font-code: "JetBrainsMono", "Fira Code", "Source Sans Pro", sans-serif;
 
   --blurple-replace: #7E7BFE;
@@ -96,7 +101,7 @@ C:::::C                H:::::H     H:::::H       A:::::::::::::::::::::A       R
   --xbox-bg: linear-gradient(90deg, rgba(0, 172, 65, 1) 0%, rgba(124, 203, 48, 1) 100%);
 
   --inner-primary: 10px;
-  --radius-primary: 10px;
+  --radius-primary: 20px;
   --radius-secondary: 10px;
 
   --background-accent-1: rgb(15, 15, 15, 0.1);
