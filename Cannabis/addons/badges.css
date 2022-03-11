@@ -111,8 +111,8 @@ C:::::C                H:::::H     H:::::H       A:::::::::::::::::::::A       R
   margin: var(--badge-margin);
 }
 .clickable-1knRMS > img {
-  height: var(--badge-size) !important;
-  width: var(--badge-size) !important;
+  height: 20px;
+  width: 20px;
 }
 
 /* Hype Squad Rozeti */
@@ -431,11 +431,12 @@ a[href*="https://support.discord.com"]:after
   box-sizing: border-box;
 }
 
-/* coolkid */
-
+/* jason */
 .userPopout-2j1gM4[aria-label="Chard"] .headerText-1-WmDq::after {
   content: "Jason";
-  font-size: 13px;
+  font-size: 15px;
+  margin: 10px;
+  height: 0px;
   -webkit-text-fill-color: rgb(226, 117, 253);
   font-family: "Slabo 13px", sans-serif;
   font-weight: 500;
@@ -445,7 +446,7 @@ a[href*="https://support.discord.com"]:after
   content: "" !important;
 }
 
-/* temp klasörü fix */
+/* temp */
 
 @import url("https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap");
 @keyframes devbadge {
@@ -525,8 +526,8 @@ a[href*="https://support.discord.com"]:after
   margin: var(--badge-margin);
 }
 .clickable-1knRMS > img {
-  height: var(--badge-size) !important;
-  width: var(--badge-size) !important;
+  height: 20px;
+  width: 20px;
 }
 
 /* Hype Squad Rozeti */
@@ -843,10 +844,13 @@ a[href*="https://support.discord.com"]:after
   overflow: hidden;
   box-sizing: border-box;
 }
-/* coolkid */
+
+/* jason */
 .userPopout-2j1gM4[aria-label="Chard"] .headerText-1-WmDq::after {
   content: "Jason";
-  font-size: 13px;
+  font-size: 15px;
+  margin: 10px;
+  height: 0px;
   -webkit-text-fill-color: rgb(226, 117, 253);
   font-family: "Slabo 13px", sans-serif;
   font-weight: 500;
