@@ -353,7 +353,7 @@ a[href*="https://support.discord.com"]:after
   height: var(--badges-everywhere-size) !important;
   width: var(--badges-everywhere-size) !important;
 }
-/* early supporter, staff, partner, hypesqaud events, verified dev, bug hunter*/
+/* her şey */
 .badges img[src="/assets/d66ce47c4ab7817190af9544f97e98cc.svg"],
 .badges img[src="/assets/f62be1ec9bdd82d3d77158ad81830e68.svg"],
 .badges img[src="/assets/53828e0c0fb6676440ad11b5d2586241.svg"],
@@ -613,7 +613,7 @@ img[src="/assets/42ecb902decfc8e83a7446a0904b1e18.svg"],
 img[src="/assets/496aa1174817ec391612f745dc8e0725.svg"] {
   height: 20px;
   width: 20px;
-  /* transform: translate(0.5px, 1.9px); */
+  transform: translate(0.5px, 1.9px);
 }
 
 /* Erken Destekçi Rozeti */
