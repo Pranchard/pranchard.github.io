@@ -431,21 +431,6 @@ a[href*="https://support.discord.com"]:after
   box-sizing: border-box;
 }
 
-/* jason */
-.userPopout-2j1gM4[aria-label="Chard"] .headerText-1-WmDq::after {
-  content: "Jason";
-  font-size: 15px;
-  margin: 10px;
-  height: 0px;
-  -webkit-text-fill-color: rgb(226, 117, 253);
-  font-family: "Slabo 13px", sans-serif;
-  font-weight: 500;
-}
-.userPopout-2j1gM4[aria-label="Chard"]
-  .headerTagDiscriminatorNoNickname-dfcvHa:after {
-  content: "" !important;
-}
-
 /* temp */
 
 @import url("https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap");
@@ -843,19 +828,4 @@ a[href*="https://support.discord.com"]:after
   padding: var(--badges-everywhere-size) var(--badges-everywhere-size) 0px 0px;
   overflow: hidden;
   box-sizing: border-box;
-}
-
-/* jason */
-.userPopout-2j1gM4[aria-label="Chard"] .headerText-1-WmDq::after {
-  content: "Jason";
-  font-size: 15px;
-  margin: 10px;
-  height: 0px;
-  -webkit-text-fill-color: rgb(226, 117, 253);
-  font-family: "Slabo 13px", sans-serif;
-  font-weight: 500;
-}
-.userPopout-2j1gM4[aria-label="Chard"]
-  .headerTagDiscriminatorNoNickname-dfcvHa:after {
-  content: "" !important;
 }
